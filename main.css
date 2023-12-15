@@ -1,0 +1,19 @@
+h1 {
+    color: red;
+}
+
+h2 {
+    color: green;
+}
+
+#economia h2 {
+    color:blue;
+}
+
+.creation-date {
+    color: blueviolet;
+}
+
+* {
+    color: brown;
+}
