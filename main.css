@@ -4,18 +4,25 @@
     padding: 0;
 }
 
-h1 {
-    color: red;
+header li {
+    display: inline;
 }
 
-h2 {
-    color: green;
+.container {
+    width: 1366px;
+    margin: 0 auto 0 auto;
 }
 
-#economia h2 {
-    color:blue;
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.creation-date {
-    color: blueviolet;
+.articles article img {
+    height: 180px;
+}
+
+.articles article {
+    width: 30%;
 }
