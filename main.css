@@ -5,7 +5,7 @@
 }
 
 body > header {
-    background-color: black;
+    background-color: #927B6D;
     padding: 16px 0;
     color: #fff;
 }
@@ -90,26 +90,50 @@ section h2 {
     font-size: 32px;
 }
 
-#esportes {
-    background-color: rgba(0,255, 0, 0.1);
-}
-
-#esportes .articles article a {
-    background-color: #009432;
-}
-
-#economia {
-    background-color: #f8f59f;
-}
-
-#economia .articles article a {
-    background-color: #ff9f1a;
-}
-
 .articles time {
     font-style: italic;
     color: darkslategrey;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 12px;
     font-weight: lighter;
+}
+
+/* Configurações dos estilos da seção de ESPORTES */
+
+#esportes {
+    background-color: rgba(24,148, 0, 0.5);
+}
+
+#esportes .articles article a {
+    background-color: #009432;
+}
+
+/* Configurações dos estilos da seção de ECONOMIA */
+
+#economia {
+    background-color: #1A7AFF;
+}
+
+#economia .articles article a {
+    background-color: #ff9f1a;
+}
+
+/* Configurações dos estilos da seção de TECNOLOGIA */
+
+#tecnologia {
+    background-color: #689794;
+}
+
+#tecnologia .articles article a {
+    background-color: #97686B;
+}
+
+/* Configurações dos estilos da seção de ENTRETENIMENTO */
+
+#entretenimento {
+    background-color: #956A91;
+}
+
+#entretenimento .articles article a {
+    background-color: #6A956E;
 }
